@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "babel pellk.js -d dist",
+    "build": "babel pellk.js --out-file dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
