@@ -5,8 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build": "babel pellk.js -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/cli": "^6.26.0"
+  }
 }
