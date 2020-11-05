@@ -58,11 +58,12 @@
 		dchkConnectSuffixes: true,
 	}
 	
-   const toLatin = convert("دهۆك", 2, options) // --> دهۆک```
+   const toLatin = convert("دهۆك", 2, options) // --> دهۆک
+   ```
 4. هەڵبژاردەکان
 ئارگیومێنی کۆتایی نەخشەکە کۆمەڵێک بژاردە وەردەگرێت کە ئەمانەن:
-|   |   |   |   |
 | هەڵبژاردە | وەسف | جۆر | نرخی بنەڕەت |
+| ------------- |:-------------:| -----:|
 |  chkDilan  | چێکردن و خاوێنکردنی فۆنتەکانی دیلان   |  boolean  | false  |
 |  chkAliWeb  |  چێکردن و خاوێنکردنی فۆنتەکانی AliWeb  | boolean  | false  |
 |  chkOnset I زیادکردنی بزرۆکە بۆ تێکستی کورمانجی | boolean  | false  |
