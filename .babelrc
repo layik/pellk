@@ -1,0 +1,8 @@
+{
+    "plugins": [
+      ["@babel/plugin-transform-modules-commonjs", {
+        "allowTopLevelThis": true,
+        "fileName": "index.js"
+      }]
+    ]
+  }
