@@ -58,8 +58,7 @@
 		dchkConnectSuffixes: true,
 	}
 	
-   const toLatin = convert("دهۆك", 2, options) // --> دهۆک
-   ```
+   const toLatin = convert("دهۆك", 2, options) // --> دهۆک```
 4. هەڵبژاردەکان
 ئارگیومێنی کۆتایی نەخشەکە کۆمەڵێک بژاردە وەردەگرێت کە ئەمانەن:
 |   |   |   |   |
