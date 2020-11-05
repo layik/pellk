@@ -1,22 +1,31 @@
+<div dir="rtl">
 # دامەزراندن و بەکارهێنان
 
 1. دامەزراندنی مۆدیوڵەکە:
+</div>
 
-   `npm install https://github.com/layik/pellk.git --save`
-   
+`npm install https://github.com/layik/pellk.git --save`
+
+<div dir="rtl">
    یان
-   
-   `yarn add https://github.com/layik/pellk.git `
-   
+</div>
+
+`yarn add https://github.com/layik/pellk.git `
+
+<div dir="rtl">
 2. بەکارهێنان:
 
    لەوشوێنەی دەتەوێت پەڵک بەکاربهێنیت:
+</div>
 
 ```javascript
    import { convert } from "pellk";
 ```
+
+<div dir="rtl">
 3. تایبەتمەندییەکان
 3.1 عەرەبی بۆ لاتین
+</div>
 
 ```javascript
    const options = {
@@ -31,7 +40,10 @@
 	
    const toLatin = convert("کوردستان", 1, options) // --> kurdistan
 ```
+<div dir="rtl">
    3.2 لاتین بۆ عەرەبی
+</div>
+
 ```javascript
    const options = {
 		chkDilan: false,
@@ -45,8 +57,11 @@
 	
    const toLatin = convert("kurdistan", 2, options) // --> کوردستان
 ```
-   
+
+<div dir="rtl">
    3.3 بەستاندەردکردنی نووسەی عەرەبی
+</div>
+
 ```javascript
    const options = {
 		chkDilan: false,
@@ -60,6 +75,8 @@
 	
    const toLatin = convert("دهۆك", 2, options) // --> دهۆک
 ```
+
+<div dir="rtl">
 4. هەڵبژاردەکان
 ئارگیومێنی کۆتایی نەخشەکە کۆمەڵێک بژاردە وەردەگرێت کە ئەمانەن:
 
@@ -74,3 +91,4 @@
 | chkTreatI  | گۆڕینی بزرۆکە بۆ "ی"   | boolean  |  false  |
 | dchkConnectSuffixes  |  پێکەوە لکاندنی پاشگرەکان  | boolean   | false  |
 
+</div>
