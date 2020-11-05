@@ -63,11 +63,12 @@
 4. هەڵبژاردەکان
 ئارگیومێنی کۆتایی نەخشەکە کۆمەڵێک بژاردە وەردەگرێت کە ئەمانەن:
 | هەڵبژاردە | وەسف | جۆر | نرخی بنەڕەت |
-| ------------- |:-------------:| -----:|
-|  chkDilan  | چێکردن و خاوێنکردنی فۆنتەکانی دیلان   |  boolean  | false  |
-|  chkAliWeb  |  چێکردن و خاوێنکردنی فۆنتەکانی AliWeb  | boolean  | false  |
-|  chkOnset I زیادکردنی بزرۆکە بۆ تێکستی کورمانجی | boolean  | false  |
+| ------------ | ------------ | ------------ | ------------ |
+| chkDilan  | چێکردن و خاوێنکردنی فۆنتەکانی دیلان   |  boolean  | false  |
+| chkAliWeb  |  چێکردن و خاوێنکردنی فۆنتەکانی AliWeb  | boolean  | false  |
+| chkOnset I زیادکردنی بزرۆکە بۆ تێکستی کورمانجی | boolean  | false  |
 | chkCapitaliseSentence  | گەورەکردنی یەکەم پیت  | boolean  |  false |
 | chkConvertNumbers  | گۆڕینی ژمارەکان   | boolean  | true   |
-|  chkTreatI  | گۆڕینی بزرۆکە بۆ "ی"   | boolean  |  false  |
-|  dchkConnectSuffixes  |  پێکەوە لکاندنی پاشگرەکان  | boolean   | false  |
+| chkTreatI  | گۆڕینی بزرۆکە بۆ "ی"   | boolean  |  false  |
+| dchkConnectSuffixes  |  پێکەوە لکاندنی پاشگرەکان  | boolean   | false  |
+
