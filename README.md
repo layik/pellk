@@ -12,13 +12,13 @@
 
    لەوشوێنەی دەتەوێت پەڵک بەکاربهێنیت:
 
-   ```javascript
+```javascript
    import { convert } from "pellk";
-   ```
+```
 3. تایبەتمەندییەکان
 3.1 عەرەبی بۆ لاتین
 
- ```javascript
+```javascript
    const options = {
 		chkDilan: false,
 		chkAliWeb: false,
@@ -30,9 +30,9 @@
 	}
 	
    const toLatin = convert("کوردستان", 1, options) // --> kurdistan
-   ```
+```
    3.2 لاتین بۆ عەرەبی
-   ```javascript
+```javascript
    const options = {
 		chkDilan: false,
 		chkAliWeb: false,
@@ -44,10 +44,10 @@
 	}
 	
    const toLatin = convert("kurdistan", 2, options) // --> کوردستان
-   ```
+```
    
    3.3 بەستاندەردکردنی نووسەی عەرەبی
-    ```javascript
+```javascript
    const options = {
 		chkDilan: false,
 		chkAliWeb: false,
@@ -59,9 +59,11 @@
 	}
 	
    const toLatin = convert("دهۆك", 2, options) // --> دهۆک
-   ```
+```
 4. هەڵبژاردەکان
 ئارگیومێنی کۆتایی نەخشەکە کۆمەڵێک بژاردە وەردەگرێت کە ئەمانەن:
+
+
 | هەڵبژاردە | وەسف | جۆر | نرخی بنەڕەت |
 | ------------ | ------------ | ------------ | ------------ |
 | chkDilan  | چێکردن و خاوێنکردنی فۆنتەکانی دیلان   |  boolean  | false  |
