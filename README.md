@@ -27,7 +27,7 @@
 		chkConvertNumbers: true,
 		chkTreatI: false,
 		dchkConnectSuffixes: true,
-	}
+   }
 	
    const toLatin = convert("کوردستان", 1, options) // --> kurdistan
 ```
@@ -41,7 +41,7 @@
 		chkConvertNumbers: true,
 		chkTreatI: false,
 		dchkConnectSuffixes: true,
-	}
+    }
 	
    const toLatin = convert("kurdistan", 2, options) // --> کوردستان
 ```
@@ -56,7 +56,7 @@
 		chkConvertNumbers: true,
 		chkTreatI: false,
 		dchkConnectSuffixes: true,
-	}
+   }
 	
    const toLatin = convert("دهۆك", 2, options) // --> دهۆک
 ```
@@ -68,7 +68,7 @@
 | ------------ | ------------ | ------------ | ------------ |
 | chkDilan  | چێکردن و خاوێنکردنی فۆنتەکانی دیلان   |  boolean  | false  |
 | chkAliWeb  |  چێکردن و خاوێنکردنی فۆنتەکانی AliWeb  | boolean  | false  |
-| chkOnset I زیادکردنی بزرۆکە بۆ تێکستی کورمانجی | boolean  | false  |
+| chkOnsetI | زیادکردنی بزرۆکە بۆ تێکستی کورمانجی | boolean  | false  |
 | chkCapitaliseSentence  | گەورەکردنی یەکەم پیت  | boolean  |  false |
 | chkConvertNumbers  | گۆڕینی ژمارەکان   | boolean  | true   |
 | chkTreatI  | گۆڕینی بزرۆکە بۆ "ی"   | boolean  |  false  |
