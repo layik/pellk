@@ -1,10 +1,8 @@
 کۆدەکانی ناو ئەم بوخچەیە [لێرەوە](https://kurdinus.com/pellk/) هاتووە.
 
-<div dir="rtl">	
 # دامەزراندن و بەکارهێنان
 
 1. دامەزراندنی مۆدیوڵەکە:
-</div>
 
 `npm install https://github.com/layik/pellk.git --save`
 
